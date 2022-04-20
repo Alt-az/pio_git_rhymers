@@ -15,6 +15,14 @@ public class HanoiRhymer extends DefaultCountingOutRhymer {
         else
             super.countIn(in);
     }
+
+    public int getTotalRejected() {
+        return totalRejected;
+    }
+
+    public void setTotalRejected(int totalRejected) {
+        this.totalRejected = totalRejected;
+    }
 }
 //5 12 14 15
 //alt + ← oraz alt + → służy do przechodzenia pomiędzy kartami w środowisku programistycznym
